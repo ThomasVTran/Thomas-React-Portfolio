@@ -2,6 +2,9 @@ import Project from '../components/Project';
 import FreshTomatoes from '../images/FreshTomatoes-screenshot.png'
 import Fur from "../images/Fur-companion-pilot-screenshot.png";
 import Note from "../images/NoteTracker.png";
+import TextEditor from '../images/Text-editor.png';
+import FirstPortfolio from '../images/FirstPortfolio.png';
+import README from '../images/README.md Generator.png';
 
 const projects =[
     {
@@ -23,39 +26,38 @@ const projects =[
     {
         title:'Note Tracker',
         hub:"ThomasVTran",
-        deployed:"Herokue Deployment",
+        deployed:"Heroku Deployment",
         image:  Note,
         deployedLink:"https://guarded-scrubland-98500-8a9de5484cb0.herokuapp.com/notes",
         hubLink:"https://github.com/ThomasVTran/Note-Tracker?tab=readme-ov-file",
     },
     {
-        title:'Project 4',
-        hub:"",
-        deployed:"",
-        image:"",
-        deployedLink:"",
-        hubLink:"",
+        title:'Text Editor',
+        hub:"ThomasVTran",
+        deployed:"Render Deployment",
+        image:TextEditor,
+        deployedLink:"https://thomas-text-editor.onrender.com",
+        hubLink:"https://github.com/ThomasVTran/Text-editor",
     },
     {
-        title:'Project 5',
-        hub:"",
+        title:'First Portfolio',
+        hub:"ThomasVTran",
         deployed:"",
-        image:"",
+        image: FirstPortfolio,
         deployedLink:"",
-        hubLink:"",
+        hubLink:"https://github.com/ThomasVTran/mock-up-portfolio",
     },
     {
-        title:'Project 6',
-        hub:"",
+        title:'README Builder',
+        hub:"ThomasVTran",
         deployed:"",
-        image:"",
+        image: README,
         deployedLink:"",
-        hubLink:"",
+        hubLink:"https://github.com/ThomasVTran/README-builder-template",
     },
 ]
 function Portfolio() {
   return (
-      <h1> Portfolio </h1>,
       <Project projects={projects}/>
     );
 }
