@@ -5,11 +5,11 @@ import { Outlet } from 'react-router-dom';
 function App() {
     return (
         <>
-                <Header />
+            <Header />
             <main className='portfolio-app'>
                 <Outlet />
-                <Footer />
             </main>
+            <Footer />
         </>
     );
 }
