@@ -5,7 +5,7 @@ function Header() {
         <header style = {{display: 'flex'}}>
             <h1>
                 Thomas Tran
-            </h1>,
+            </h1>
 
             <Navigation />
         </header>

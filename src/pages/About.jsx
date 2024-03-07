@@ -9,9 +9,9 @@ export default function About() {
     <div>
       <h1>About Me</h1>
       <p>
-        <Container className='' style={{ width: '100%',height: '25rem', objectFit: 'cover'}}>
+        <Container className='center' style={{ width: '75%', height: '25rem', display: 'flex'}}>
           <Col xs={6} md={4}>
-            <Image src={Me} alt="picture of me" thumbnail />
+            <Image src={Me} alt="picture of me" thumbnail style={{objectFit: 'cover', alignContent: 'center'}} />
           </Col>
         </Container>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
